@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  user-select: none;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --azul-4: #021d2c;
+  --azul-3: #084362;
+  --azul-2: #65a3c5;
+  --azul-1: #e3f1f7;
+  --amarillo: #fafdb8;  
+  --blanco: #fff;
+  --negro: #000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: var(--azul-1);
+  letter-spacing: 0.03rem;
+  color: var(--azul-4);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1, h2 {
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+.contenedor-footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  background-color: var(--azul-3);
+  color: var(--azul-1);
 }
 
-.App-link {
-  color: #61dafb;
+.contenedor-footer > .contenedor-iconos {
+  margin-top: 1.5rem; /* Puedes ajustar el valor según sea necesario */
+  padding: 0;
+  color: var(--azul-1);
+  font-size: 1.2rem;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.contenedor-footer h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.icono-linkedin, .icono-github {
+  color: var(--azul-1);
+}
+
+.icono-linkedin:hover {
+  transition: 0.3s;
+  color: var(--azul-2);
+}
+
+.icono-github:hover {
+  transition: 0.3s;
+  color: var(--azul-2);
+}
+
+button:hover {
+  background-color: var(--azul-2);
+  transition: 0.5s;
+}
+
+
+/* Para pantallas menores a 800px */
+@media (max-width: 799px) {
+
+  .App {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
 }

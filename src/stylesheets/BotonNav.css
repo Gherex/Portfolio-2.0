@@ -1,0 +1,70 @@
+.boton-nav {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 3em;
+  min-width: 100px;
+  letter-spacing: 1.5px;
+  transition: all 0.5s ease;
+  position: relative;
+}
+
+.boton-nav::before,
+.boton-nav::after {
+  content: '';
+  position: absolute;
+  border-bottom: 2px solid var(--blanco);
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.boton-nav::before {
+  right: 2.8em;
+  bottom: -4px;
+  width: 0%;
+}
+
+.boton-nav::after {
+  left: 0;
+  bottom: -9px;
+  width: 0%;
+}
+
+.boton-nav.active::before,
+.boton-nav:hover::before {
+  right: 2.8em;
+  bottom: -4px;
+  width: 45%;
+  opacity: 1;
+}
+
+.boton-nav.active::after,
+.boton-nav:hover::after {
+  left: 0;
+  bottom: -9px;
+  width: 30%;
+  opacity: 1;
+}
+
+/* SOLO PARA INICIO PORQUE ES MAS CORTO: */
+.boton-nav:first-child.active::before,
+.boton-nav:first-child:hover::before {
+  right: 2.8em;
+  bottom: -4px;
+  width: 40%;
+  opacity: 1;
+}
+.boton-nav:first-child.active::after,
+.boton-nav:first-child:hover::after {
+  left: 0;
+  bottom: -9px;
+  width: 25%;
+  opacity: 1;
+}
+
+@media (min-width: 800px) and (max-width: 1100px) {
+
+  .boton-nav {
+    padding-right: 2em;
+  }
+  
+}

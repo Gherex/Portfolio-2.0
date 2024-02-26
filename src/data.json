@@ -1,0 +1,146 @@
+{
+  "spanish": {
+    "botonNav": [
+      "Inicio",
+      "Sobre mí",
+      "Portafolio",
+      "Contacto"
+    ],
+    "botonNavID": [
+      "inicio",
+      "sobre-mi",
+      "portafolio",
+      "contacto"
+    ],
+    "inicio": {
+      "descripcion": "Desarrollador Java, estudiante de Ingeniería en Informática"
+    },
+    "sobreMi": {
+      "titulo": "Sobre mí",
+      "presentacionNegrita": "Hola, soy Germán Lagger.",
+      "presentacion": "Desarrollador Java Jr y estudiante de Ingeniería en Informática en la Universidad Nacional del Litoral.",
+      "tabla1": {
+        "titulo": "Habilidades técnicas:",
+        "fila": [
+          "MS Office",
+          "HTML & CSS",
+          "JavaScript + React (básico)",
+          "Java + Spring Boot, Hibernate (básico)",
+          "C++"
+        ]
+      },
+      "tabla2": {
+        "titulo": "Habilidades profesionales:",
+        "fila": [
+          "Comunicación",
+          "Trabajo en equipo",
+          "Creativo",
+          "Meticuloso",
+          "Dedicado"
+        ]
+      },
+      "botones": [
+        "Ver CV",
+        "Descargar CV"
+      ]
+    },
+    "portafolio": {
+      "titulo": "Mis últimos proyectos",
+      "descripcion": [
+        "Página web estática dedicada a recetas tradicionales argentinas, diseño sencillo y visualmente agradable.",
+        "Calculadora web interactiva, interfaz intuitiva que permite realizar operaciones matemáticas de manera rápida.",
+        "Anotador web interactivo que permite a los usuarios tomar notas y organizar su información de manera eficiente.",
+        "Juego de plataformas en 2D. Proyecto final de la asignatura Programación Orientada a Objetos."
+      ]
+    },
+    "contacto": {
+      "titulo": "Contacto",
+      "tabla": [
+        "Email",
+        "Ubicación",
+        "Teléfono"
+      ],
+      "placeholder": [
+        "Ingrese su nombre",
+        "Ingrese su correo electrónico",
+        "Asunto",
+        "Mensaje"
+      ],
+      "botonSubmit": "Enviar mensaje",
+      "emailCheck": "Por favor, introduce un correo electrónico válido: Hotmail/Gmail"
+    },
+    "footerTexto": "Germán Portafolio 2024"
+  },
+  "english": {
+    "botonNav": [
+      "Home",
+      "About me",
+      "Portfolio",
+      "Contact"
+    ],
+    "botonNavID": [
+      "inicio",
+      "sobre-mi",
+      "portafolio",
+      "contacto"
+    ],
+    "inicio": {
+      "descripcion": "Java Developer, Computer Engineering student"
+    },
+    "sobreMi": {
+      "titulo": "About me",
+      "presentacionNegrita": "Hi, I'm Germán Lagger.",
+      "presentacion": "Java Jr Developer and Computer Engineering student at the Universidad Nacional del Litoral.",
+      "tabla1": {
+        "titulo": "Technical skills:",
+        "fila": [
+          "MS Office",
+          "HTML & CSS",
+          "JavaScript + React (basic)",
+          "Java + Spring Boot, Hibernate (basic)",
+          "C++"
+        ]
+      },
+      "tabla2": {
+        "titulo": "Professional skills:",
+        "fila": [
+          "Communication",
+          "Teamwork",
+          "Creative",
+          "Meticulous",
+          "Dedicated"
+        ]
+      },
+      "botones": [
+        "View CV",
+        "Download CV"
+      ]
+    },
+    "portafolio": {
+      "titulo": "My latest projects",
+      "descripcion": [
+        "Static website dedicated to traditional Argentine recipes with a simple and visually pleasing design.",
+        "Interactive web calculator, an intuitive interface that allows you to perform mathematical operations quickly.",
+        "Interactive web notepad that allows users to take notes and organize their information efficiently.",
+        "2D platform game. Final project of the subject Object Oriented Programming."
+      ]
+    },
+    "contacto": {
+      "titulo": "Contact",
+      "tabla": [
+        "E-mail",
+        "Location",
+        "Phone"
+      ],
+      "placeholder": [
+        "Enter your name",
+        "Enter your email",
+        "Mail subject",
+        "Message"
+      ],
+      "botonSubmit": "Send Message",
+      "emailCheck": "Please enter a valid email: Hotmail/Gmail"
+    },
+    "footerTexto": "Germán Portfolio 2024"
+  }
+}

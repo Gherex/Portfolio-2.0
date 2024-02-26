@@ -1,0 +1,80 @@
+.contenedor-inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: calc(100vh - 70px); /*la altura de la barra de navegacion*/
+  padding-top: 60px;
+  color: var(--azul-4);
+}
+
+.imagen-perfil {
+  width: 20rem;
+  margin: 1rem;
+  border: solid 2px var(--azul-4);
+  border-radius: 45%;
+  box-shadow: 0 0 5px var(--negro), 0 0 10px #000266, 0 0 15px var(--blanco);
+  background-color: #695acd6a;
+}
+
+.nombre {
+  font-size: 2em;
+  margin: 1.3rem 0 0.7rem 0;
+  line-height: 1.3em;
+  font-weight: bold;
+}
+
+.descripcion {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.contenedor-iconos {
+  font-size: 1.7rem;
+  margin: 0.7rem;
+}
+
+.icono-linkedin {
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.icono-github {
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.contenedor-iconos a {
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+  color: var(--azul-4);
+}
+
+.contenedor-iconos a:hover {
+  transition: 0.3s;
+  color: var(--azul-3);
+}
+
+/* Para pantallas menores a 800px */
+@media (max-width: 799px) {
+
+  .contenedor-inicio {
+    height: 110vh;
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 10em;
+  }
+  .imagen-perfil {
+    margin-top: 1em;
+    width: 17em;
+  }
+  .nombre {
+    margin: 0.4em 0 1.2em 0;
+  }
+  .descripcion {
+    margin-bottom: 0.5em;
+  }
+  .contenedor-iconos {
+    padding-bottom: 4em;
+  }
+}

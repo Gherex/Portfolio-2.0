@@ -1,0 +1,66 @@
+.contenedor-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  height: 100vh;
+  margin: 2em auto 4em auto;
+  padding-top: 4rem;
+}
+
+.contenedor-contacto > h2 {
+  margin-top: 3rem;
+}
+
+.contenedor-contacto ul {
+  padding: 0.8rem 0;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.contenedor-contacto li {
+  margin-bottom: 0.5rem;
+}
+
+.contenedor-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  padding-bottom: 2rem;
+}
+
+.contenedor-form input, textarea {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  resize: none;
+}
+
+.contenedor-form button {
+  margin: 1rem auto;
+}
+
+.icono-del-boton {
+  margin-right: 5px;
+}
+
+/* Para pantallas menores a 800px */
+@media (max-width: 799px) {
+
+  .contenedor-contacto {
+    height: 110vh;
+  }
+
+  .contenedor-contacto > h2 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  .contenedor-contacto li {
+    padding: 0.5em 0;
+    text-wrap: nowrap;
+  }
+  .contenedor-form {
+    padding-top: 0.5em;
+  }
+}
