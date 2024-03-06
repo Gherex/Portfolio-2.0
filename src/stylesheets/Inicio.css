@@ -70,9 +70,11 @@
     width: 17em;
   }
   .nombre {
+    font-size: 1.9em;
     margin: 0.4em 0 1.2em 0;
   }
   .descripcion {
+    font-size: 1.2em;
     margin-bottom: 0.5em;
   }
   .contenedor-iconos {
