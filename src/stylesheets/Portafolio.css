@@ -5,12 +5,13 @@
   justify-content: center;
   align-items: center;
   width: 80vw;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 4rem;
 }
 
 .titulo {
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .contenedor-proyectos {
@@ -33,7 +34,7 @@
   height: 70vh;
   box-shadow: 2px 2px 2px 1px var(--azul-4);
   margin: 2rem 0;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .enlace {
@@ -49,12 +50,7 @@
 
 .portada {
   width: 100%;
-}
-
-img.portada,
-video.portada {
-  width: 100%;
-  height: 16rem;
+  height: 14rem;
   border: 2px solid #021d2c;
   max-width: 400px;
 }
@@ -67,7 +63,7 @@ video.portada {
   text-align: center;
   text-wrap: balance;
   font-size: 1.2em;
-  padding: 1.5rem 1.2rem;
+  padding: 1.5rem 1rem;
   color: #021d2c;
 }
 
@@ -79,7 +75,7 @@ video.portada {
 }
 
 .icono {
-  width: 15%;
+  width: 3.5em;
   max-width: 3.5rem;
 }
 
@@ -92,56 +88,20 @@ video.portada {
   color: #021d2c;
 }
 
-/* Para pantallas entre 800px y 1000px */
-@media (min-width: 800px) and (max-width: 1100px) {
+@media screen and (min-width: 850px) and (max-width: 1100px) {
 
-  .contenedor-portafolio {
-    
-  }
-  .titulo {
-
-  }
   .contenedor-proyectos {
-    flex-direction: column;
+    gap: 2rem;
   }
   .proyecto {
-
-  }
-  .enlace {
-
-  }
-  .proyecto a {
-
-  }
-  .portada {
-
-  }
-  img.portada,
-  video.portada {
-
-  }
-  .proyecto video {
-
-  }
-  .descripcion-proyecto {
-
-  }
-  .contenedor-lenguajes {
-
-  }
-  .icono {
-
-  }
-  .contenedor-iconos {
-
+    width: 100%;
   }
 }
-
-/* Para pantallas menores a 800px */
-@media (max-width: 799px) {
+@media screen and (max-width: 850px) {
 
   .contenedor-portafolio {
     margin-top: 10em;
+    width: 70%;
   }
   .titulo {
     text-align: center;
@@ -150,15 +110,51 @@ video.portada {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
   }
   .proyecto {
     padding-top: 3em;
     max-width: 100%;
-    height: 80vh;
+    height: auto;
   }
   .descripcion-proyecto {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contenedor-portafolio {
+    margin-top: 10em;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 280px) {
+
+  .contenedor-portafolio {
+    margin-top: 10em;
+    width: 100%;
+  }
+  .titulo {
+    text-align: center;
+  }
+  .contenedor-proyectos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .proyecto {
+    padding-top: 3em;
+    max-width: 100%;
+    height: auto;
+  }
+  .descripcion-proyecto {
+    font-size: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .icono {
+    width: 3em;
+    max-width: 3.5rem;
   }
 }

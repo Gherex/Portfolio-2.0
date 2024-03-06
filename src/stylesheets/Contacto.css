@@ -64,3 +64,24 @@
     padding-top: 0.5em;
   }
 }
+
+@media (max-width: 280px) {
+
+  .contenedor-contacto {
+    width: 100%;
+  }
+  .lista-datos li {
+    font-size: 0.9rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contenedor-form {
+    width: 90%;
+  }
+  .contenedor-form input,
+  .contenedor-form textarea {
+    font-size: 0.9rem;
+    padding: 0.2rem;
+  }
+}

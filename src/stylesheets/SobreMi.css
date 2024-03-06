@@ -165,3 +165,24 @@ button {
     margin: 0.4em 0;
   }
 }
+
+@media (max-width: 280px) {
+
+  div.contenedor-tablas {
+    width: 100%;
+  }
+  .tabla1,
+  .tabla2 {
+    margin: 1rem 0;
+    width: 90%;
+  }
+  .tabla1 h3,
+  .tabla2 h3 {
+    font-size: 1.1rem;
+    padding:
+  }
+  .tabla1 li,
+  .tabla2 li {
+    font-size: 1rem;
+  }
+}

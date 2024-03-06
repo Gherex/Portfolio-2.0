@@ -47,7 +47,7 @@
     "portafolio": {
       "titulo": "Mis últimos proyectos",
       "descripcion": [
-        "Página web estática dedicada a recetas tradicionales argentinas, diseño sencillo y visualmente agradable.",
+        "Página web de una hamburguesería utilizando React. Interfaz dinámica y moderna.",
         "Calculadora web interactiva, interfaz intuitiva que permite realizar operaciones matemáticas de manera rápida.",
         "Anotador web interactivo que permite a los usuarios tomar notas y organizar su información de manera eficiente.",
         "Juego de plataformas en 2D. Proyecto final de la asignatura Programación Orientada a Objetos."
@@ -119,7 +119,7 @@
     "portafolio": {
       "titulo": "My latest projects",
       "descripcion": [
-        "Static website dedicated to traditional Argentine recipes with a simple and visually pleasing design.",
+        "Burger restaurant website using React. Dynamic and modern interface.",
         "Interactive web calculator, an intuitive interface that allows you to perform mathematical operations quickly.",
         "Interactive web notepad that allows users to take notes and organize their information efficiently.",
         "2D platform game. Final project of the subject Object Oriented Programming."

@@ -1,12 +1,13 @@
 import React from "react";
-import imgProyecto1 from "../images/recetas.jpg";
-import imgProyecto2 from "../images/calculadora.jpg";
-import imgProyecto3 from "../images/anotador.jpg";
+import imgProyecto1 from "../images/hamburgueseria_krusty.png";
+import imgProyecto2 from "../images/calculadora.png";
+import imgProyecto3 from "../images/anotador.png";
 import vidProyecto4 from "../videos/Gameplay-gift.mp4";
 import "../stylesheets/Portafolio.css";
 import icoHTML from "../images/icons/ico-html.png";
 import icoCSS from "../images/icons/ico-css.png";
 import icoJS from "../images/icons/ico-js.png";
+import icoReact from "../images/icons/ico-react.png"
 import icoCPlusPlus from "../images/icons/ico-c++.png";
 import icoSFML from "../images/icons/ico-sfml.png";
 import { IoOpenOutline } from "react-icons/io5";
@@ -21,21 +22,27 @@ export default function Portafolio({ props }) {
 
 
         <div className="proyecto">
-          <a className="enlace" href="https://recetasdegherex.netlify.app/" target="_blank" draggable="false"><img className="portada" src={imgProyecto1} alt="Imagen de una pag. web de recetas." /></a>
+          <a className="enlace" href="http://krustyburgers.netlify.app" target="_blank" draggable="false">
+            <img className="portada" src={imgProyecto1} alt="Imagen de una pag. web de recetas." draggable="false" />
+          </a>
           <p className="descripcion-proyecto"> {props.descripcion[0]} </p>
           <div className="contenedor-lenguajes">
             <img className="icono" src={icoHTML} alt="Icono HTML" draggable="false" />
             <img className="icono" src={icoCSS} alt="Icono CSS" draggable="false" />
+            <img className="icono" src={icoJS} alt="Icono JavaScript" draggable="false" />
+            <img className="icono" src={icoReact} alt="Icono React" draggable="false" />
           </div>
           <div className="contenedor-iconos">
-            <a href="https://recetasdegherex.netlify.app/" target="_blank" draggable="false"><IoOpenOutline /></a>
-            <a href="https://github.com/Gherex/PaginaWeb_Recetas" target="_blank" draggable="false"><FaGithubSquare className="icono-github" /></a>
+            <a href="http://krustyburgers.netlify.app" target="_blank" draggable="false"><IoOpenOutline /></a>
+            <a href="https://github.com/Gherex/KrustyBurgers" target="_blank" draggable="false"><FaGithubSquare className="icono-github" /></a>
           </div>
         </div>
 
 
         <div className="proyecto">
-          <a className="enlace" href="https://calculadoradegherex.netlify.app/" target="_blank" draggable="false"><img className="portada" src={imgProyecto2} alt="Imagen de una calculadora interactiva." /></a>
+          <a className="enlace" href="https://calculadoradegherex.netlify.app/" target="_blank" draggable="false">
+            <img className="portada" src={imgProyecto2} alt="Imagen de una calculadora interactiva." draggable="false" />
+          </a>
           <p className="descripcion-proyecto"> {props.descripcion[1]} </p>
           <div className="contenedor-lenguajes">
             <img className="icono" src={icoHTML} alt="Icono HTML" draggable="false" />
@@ -50,7 +57,9 @@ export default function Portafolio({ props }) {
 
 
         <div className="proyecto">
-          <a className="enlace" href="https://anotadordegherex.netlify.app/" target="_blank" draggable="false"><img className="portada" src={imgProyecto3} alt="Imagen de un anotador de tareas." /></a>
+          <a className="enlace" href="https://anotadordegherex.netlify.app/" target="_blank" draggable="false">
+            <img className="portada" src={imgProyecto3} alt="Imagen de un anotador de tareas." draggable="false" />
+          </a>
           <p className="descripcion-proyecto"> {props.descripcion[2]} </p>
           <div className="contenedor-lenguajes">
             <img className="icono" src={icoHTML} alt="Icono HTML" draggable="false" />

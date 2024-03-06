@@ -12,6 +12,7 @@
 .imagen-perfil {
   width: 20rem;
   margin: 1rem;
+  margin-top: 5rem;
   border: solid 2px var(--azul-4);
   border-radius: 45%;
   box-shadow: 0 0 5px var(--negro), 0 0 10px #000266, 0 0 15px var(--blanco);
@@ -76,5 +77,11 @@
   }
   .contenedor-iconos {
     padding-bottom: 4em;
+  }
+}
+
+@media (max-width: 280px) {
+  img.imagen-perfil {
+    width: 90%;
   }
 }

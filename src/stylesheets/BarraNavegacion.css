@@ -100,9 +100,7 @@
     padding: 0 0.1em;
   }
   .contenedor-sliders {
-    padding: 0.5em 0;
-  }
-  div.boton-deslizante-lan {
-    margin-top: 1em;
+    padding: 1rem;
+    margin: 0;
   }
 }
